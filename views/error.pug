@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  div.error-container
+    img(src="images/sad.jpg" alt="error")
+    h1= message
+    h2= error.status
+    p #{errorMessage}
